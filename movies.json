@@ -1,0 +1,43 @@
+[
+    {
+      "title": "The Joy of Painting with Bob Ross",
+      "description": "Join Bob Ross for a 27-minute painting lesson and create a beautiful art piece.",
+      "videoUrl": "https://videos.pexels.com/video-files/2356321/2356321-sd_640_360_24fps.mp4",
+      "thumbnailUrl": "https://3sep.zetflix-online.top/uploads/posts/2023-06/1686993285_futurama.jpg",
+      "genre": "Educational",
+      "duration": "27 minutes"
+    },
+    {
+      "title": "How to Make Perfect Pasta",
+      "description": "Learn the secrets to making perfect pasta every time with this simple guide.",
+      "videoUrl": "https://videos.pexels.com/video-files/3217937/3217937-sd_640_360_24fps.mp4",
+      "thumbnailUrl": "https://3sep.zetflix-online.top/uploads/posts/2024-08/1724691259_boga-borba-smotret-onlajn.jpeg",
+      "genre": "Cooking",
+      "duration": "182 minutes"
+    },
+    {
+      "title": "Exploring Mars: The Next Frontier",
+      "description": "A fascinating look at NASA's future plans for Mars exploration.",
+      "videoUrl": "https://videos.pexels.com/video-files/1093662/1093662-sd_640_360_30fps.mp4",
+      "thumbnailUrl": "https://3sep.zetflix-online.top/uploads/posts/2024-09/1725314956_jefendi-smotret-onlajn.jpeg",
+      "genre": "Science",
+      "duration": "181 minutes"
+    },
+    {
+      "title": "5-Minute Workout Routine",
+      "description": "A quick and effective workout routine to get your day started.",
+      "videoUrl": "https://videos.pexels.com/video-files/1536322/1536322-sd_640_360_30fps.mp4",
+      "thumbnailUrl": "https://3sep.zetflix-online.top/uploads/posts/2024-07/1721421333_p27295040_b_h8_ab.jpg",
+      "genre": "Fitness",
+      "duration": "90 minutes"
+    },
+    {
+      "title": "Introduction to Meditation",
+      "description": "Discover the benefits of meditation in this calming 10-minute session.",
+      "videoUrl": "https://videos.pexels.com/video-files/2759484/2759484-sd_640_360_30fps.mp4",
+      "thumbnailUrl": "https://3sep.zetflix-online.top/uploads/posts/2023-09/1695196680_berlin.jpg",
+      "genre": "Health & Wellness",
+      "duration": "101 minutes"
+    }
+  ]
+  
