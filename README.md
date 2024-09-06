@@ -1,40 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Netflix site 🍿
 
-## Getting Started
+Good practice for creating a site for watching movies. Authorization is implemented (using Google, GitHub and by mail and password). Movie feed, list of favorite movies, watching movies).
 
-First, run the development server:
+## Stack 📚
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Next.js
+- Next-auth
+- Axios
+- Zustand
+- MongoDB (Prisma)
+- Tailwind
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Commands and .env Configuration 🔧
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- Run `npm run dev` to start the client server.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Configure your `.env` with:
+`DATABASE_URL`
+`NEXTAUTH_JWT_SECRET`
+`NEXTAUTH_SECRET`
+`GITHUB_ID`
+`GITHUB_SECRET`
+`GOOGLE_CLIENT_ID`
+`GOOGLE_CLIENT_SECRET`
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Some Snapshots 📸
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Main Page
+![1](https://github.com/user-attachments/assets/1f4ff897-8aa6-44e7-9549-bd281124dff5)
+### Movie List
+![2](https://github.com/user-attachments/assets/fa990713-1c04-44a5-91e7-57c44e9b2627)
+### Movie Choosing
+![3](https://github.com/user-attachments/assets/86ff1e3d-66c3-46f7-8867-49c52800640f)
+### Login Page
+![4](https://github.com/user-attachments/assets/bf225fc3-c888-4d5c-bb0a-278cf420015b)
+### Movie Watching
+![5](https://github.com/user-attachments/assets/de104a29-6b13-44f7-a3a4-a202e9a111fa)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
